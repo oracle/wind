@@ -207,4 +207,4 @@ This keyword **Return** value reflects successful message of package being part 
 * Add Stack Artifact to Application Package
 * Delete Application Package
 
-[wind_marketplace_library_link]: https://github.com/oracle-quickstart/oci-marketplace-wind
+[wind_marketplace_library_link]: https://github.com/oracle/wind/tree/main/wind-oci-marketplace/MarketplaceLibrary

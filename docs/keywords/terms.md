@@ -124,4 +124,4 @@ This keyword **Return** value is a successfull message and terms details.
 | terms_version_id  | Yes      | Terms of Use Version Value  |
 
 
-[wind_marketplace_library_link]: https://github.com/oracle-quickstart/oci-marketplace-wind
+[wind_marketplace_library_link]: https://github.com/oracle/wind/tree/main/wind-oci-marketplace/MarketplaceLibrary

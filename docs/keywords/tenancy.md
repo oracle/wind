@@ -103,4 +103,4 @@ This keyword **Return** value is a **JSON** message that your tenancy has delete
 This keyword **Return** value of compute images list available in your tenancy.
 
 
-[wind_marketplace_library_link]: https://github.com/oracle-quickstart/oci-marketplace-wind
+[wind_marketplace_library_link]: https://github.com/oracle/wind/tree/main/wind-oci-marketplace/MarketplaceLibrary

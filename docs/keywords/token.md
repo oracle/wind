@@ -36,5 +36,5 @@ Below tables represents each keyword, associated parameters and their return val
 
 This keyword **Return** value is auth token which you will use in consecutive keywords execution. 
 
-[wind_marketplace_library_link]: https://github.com/oracle-quickstart/oci-marketplace-wind
+[wind_marketplace_library_link]: https://github.com/oracle/wind/tree/main/wind-oci-marketplace/MarketplaceLibrary
 

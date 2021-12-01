@@ -103,4 +103,4 @@ This keyword **Return** value is a list of Lead Notes.
 This keyword **Return** value is a successful message and lead ID.
 
 
-[wind_marketplace_library_link]: https://github.com/oracle-quickstart/oci-marketplace-wind
+[wind_marketplace_library_link]: https://github.com/oracle/wind/tree/main/wind-oci-marketplace/MarketplaceLibrary
