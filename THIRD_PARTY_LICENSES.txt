@@ -2233,9 +2233,9 @@ Copyright © 2001-2006 Gregory P. Ward. All rights reserved.
 Copyright © 2002-2006 Python Software Foundation. All rights reserved.
 
 --------------------------------(separator)---------------------------------
-Jinja2 2.11.2
+Jinja2 2.11.3
 
-## URL for License and Copyright Notice - https://github.com/pallets/jinja/blob/2.11.2/LICENSE.rst
+## URL for License and Copyright Notice - https://github.com/pallets/jinja/blob/2.11.3/LICENSE.rst
 
 Copyright 2007 Pallets
 
@@ -2330,9 +2330,9 @@ SOFTWARE.
 
 --------------------------------(separator)---------------------------------
 
-pyyaml, Version: 5.3.1
+pyyaml, Version: 5.4.1
 
-URL for License and Copyright Notice - https://github.com/yaml/pyyaml/blob/5.3.1/LICENSE
+URL for License and Copyright Notice - https://github.com/yaml/pyyaml/blob/5.4.1/LICENSE
 
 Copyright (c) 2017-2020 Ingy döt Net
 
