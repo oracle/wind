@@ -122,7 +122,7 @@ class Marketplace:
 
     @keyword("Get Tenancy Details", tags=["Common", "Tenancy"])
     def get_tenancy_details(self, tenancy_id):
-        """Get OCI Tenancy Details from Marketplace Publisher Account."""
+        """Get OCI Tenancy Details from Marketplace Publisher Account"""
         response = self.session.get(
             self.apis["tenancies"] + "/" + tenancy_id,
             params=self.params,
