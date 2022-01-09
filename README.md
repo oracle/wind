@@ -14,6 +14,7 @@ To build `WIND` from git (master branch), run below commands:
 
 ```bash
 git clone https://github.com/oracle/wind.git
+git checkout <release_branch>
 pip3 install -r requirements.txt
 pip3 install .
 cd wind-oci-marketplace

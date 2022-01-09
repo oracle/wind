@@ -39,4 +39,6 @@ test_reports/
 # OS generated files
 .DS_Store
 
-examples/
+use-cases/examples/files
+use-cases/examples/test_reports
+use-cases/examples/variables.robot

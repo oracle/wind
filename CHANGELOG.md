@@ -1,8 +1,8 @@
 # Release Notes
 
-- Release Date: **Date-TBD**
-- Supported WIND Releases:
-    - release-v0.0.1
+- Release Date: **Jan 7, 2022**
+- WIND **Release**:
+    - **v1.0.0**
 
 ## Features
 

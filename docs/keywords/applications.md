@@ -121,6 +121,8 @@ This keyword **Return** value reflects application created successfully.
 
 This keyword **Return** value is a successful message of uploading application icon. 
 
+> **Note**: Upload icon as per allowed size on Partner Portal. Check official docs to know more about it.
+
 - **Add Application Banner**: 
 
 | Parameters      | Required  | Comment                                         |
@@ -131,6 +133,8 @@ This keyword **Return** value is a successful message of uploading application i
 | icon_file_name  | Yes       | Banner Icon File Name                           |
 
 This keyword **Return** value is a successful message of uploading application banner. 
+
+> **Note**: Upload Banner as per allowed size on Partner Portal. Check official docs to know more about it.
 
 - **Create Application Version**: 
 

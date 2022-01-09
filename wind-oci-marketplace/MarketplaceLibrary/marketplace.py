@@ -205,7 +205,7 @@ class Marketplace:
 
     @keyword("Get All Terms of Use", tags=["Common", "Terms"])
     def get_all_terms_of_use(self):
-        """Create New Terms which are exposed to end users."""
+        """Get All Terms of Use Available within your Publisher Account."""
         response = self.session.get(self.apis["terms"])
         if response.status_code >= 200 and response.status_code < 300:
             return json.loads(response.text)
@@ -214,7 +214,7 @@ class Marketplace:
 
     @keyword("Get Terms Version", tags=["Common", "Terms"])
     def get_terms_of_use(self, terms_id, terms_version_id):
-        """Create New Terms which are exposed to end users."""
+        """Get Particular Term Version of Use Available within your Publisher Account."""
         response = self.session.get(
             self.apis["terms"] + "/" + terms_id + "/version/" + terms_version_id
         )
@@ -225,7 +225,7 @@ class Marketplace:
 
     @keyword("Update Version of Terms of Use", tags=["Common", "Terms"])
     def update_terms_of_use(self, version_value, term_file_path, terms_id):
-        """Update New Terms which are exposed to end users."""
+        """Update New Version of Terms of Use which are exposed to end users."""
         with open(term_file_path, "r") as term_file:
             term_value = term_file.read()
         term_data = {
@@ -266,7 +266,7 @@ class Marketplace:
 
     @keyword("Deactivate Terms of Use", tags=["Common", "Terms"])
     def deactivate_terms_of_use(self, terms_id):
-        """Activate New Terms which are exposed to end users."""
+        """Deactivate New Terms which are exposed to end users."""
         term_data = {"status": "INACTIVE"}
         response = self.session.patch(
             self.apis["terms"] + "/" + terms_id, data=json.dumps(term_data)
@@ -362,7 +362,7 @@ class Marketplace:
     def create_stack_artifact(
         self, artifact_name, artifact_file_name, artifact_file_path
     ):
-        """Create Artifact."""
+        """Create Stack Artifact and It returns message Ok value with artifact ID."""
         payload = {}
         files = [
             (
@@ -395,7 +395,7 @@ class Marketplace:
 
     @keyword("Delete Artifact", tags=["Common", "Artifact"])
     def delete_artifact(self, artifact_id):
-        """Delete Artifact Details by ID."""
+        """Delete Artifact by ID."""
         response = self.session.delete(self.apis["artifacts"] + "/" + artifact_id)
         if response.status_code >= 200 and response.status_code < 300:
             return json.loads(response.text)
@@ -771,7 +771,7 @@ class Marketplace:
 
     @keyword("Create Application Version", tags=["Common", "Application"])
     def create_application_version(self, application_id):
-        """Get Application."""
+        """Create Application Version."""
         response = self.session.post(
             self.apis["applications"] + "/" + application_id + "/version",
         )
@@ -782,7 +782,7 @@ class Marketplace:
 
     @keyword("Get Application Details", tags=["Common", "Application"])
     def get_application_details(self, application_name):
-        """Get Application."""
+        """Get Application Details."""
         applications = self.list_applications()
         for value in applications["items"]:
             if value["listingSummary"]["name"] == application_name:
@@ -891,7 +891,7 @@ class Marketplace:
         request_on_range_end=None,
         listing_id=None,
     ):
-        """Get Customer App Installs for your Published Listings"""
+        """Get Customer App Installs Requests for your Published Listing."""
         query_params = "?"
         if install_status:
             query_params += "installstatus=" + install_status
