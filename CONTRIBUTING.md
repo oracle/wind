@@ -8,7 +8,7 @@ For bugs or enhancement requests, please file a GitHub issue unless it's securit
 
 ## Contributing Code
 
-We welcome your code contributions. To get started, you will need to sign the [Oracle Contributor Agreement](https://oca.opensource.oracle.com) (OCA).
+We welcome your code contributions. To get started, you will need to sign the [Oracle Contributor Agreement] (OCA).
 
 For pull requests to be accepted, the bottom of your commit message must have
 the following line using the name and e-mail address you used for the OCA.
@@ -39,6 +39,10 @@ what your changes are meant to do and provide simple steps on how to validate
 your changes. Ensure that you reference the issue you created as well.
 6. We will review your PR before it is merged.
 
-## Code of Conduct
+## Code of conduct
 
-Follow the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule). If you'd like more specific guidelines see the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
+Follow the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule). If you'd
+like more specific guidelines, see the [Contributor Covenant Code of Conduct][COC].
+
+[OCA]: https://oca.opensource.oracle.com
+[COC]: https://www.contributor-covenant.org/version/1/4/code-of-conduct/
