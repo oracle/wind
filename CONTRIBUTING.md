@@ -26,7 +26,7 @@ git commit --signoff
 Only pull requests from committers that can be verified as having
 signed the OCA can be accepted.
 
-### Pull request process
+## Pull request process
 
 1. Fork this repository
 2. Create a branch in your fork to implement the changes. We recommend using
