@@ -20,4 +20,4 @@ robotframework-sshlibrary==3.3.0
 scp==0.13.2
 six==1.15.0
 textfsm==1.1.0
-urllib3==1.26.6
+urllib3==1.26.18
