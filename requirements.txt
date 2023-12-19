@@ -9,7 +9,7 @@ future==0.18.3
 idna==2.10
 Jinja2==2.11.3
 MarkupSafe==2.0.1
-paramiko==2.10.1
+paramiko==3.4.0
 pycparser==2.20
 PyJWT==2.4.0
 PyNaCl==1.4.0
